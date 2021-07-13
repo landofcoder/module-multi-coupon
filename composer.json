@@ -1,0 +1,28 @@
+{
+    "name": "landofcoder/module-multi-coupon",
+    "type": "magento2-module",
+    "description": "Extension of Magento2 Sales Rule to allow multiple coupon usage.",
+    "keywords": ["magento2", "salesrule", "coupon", "cart", "multiple"],
+    "license": "OSL-3.0",
+    "version": "1.0.0",
+    "require": {
+        "magento/framework": "^102.0.0",
+        "magento/module-sales-rule": "^101.1.0"
+    },
+    "authors": [
+        {
+            "name": "Landofcoder",
+            "email": "landofcoder@gmail.com",
+            "role": "Magento 2 Landofcoder MultiCoupon",
+            "homepage": "https://landofcoder.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lof\\MultiCoupon\\": ""
+        }
+    }
+}

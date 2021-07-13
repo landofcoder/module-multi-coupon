@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Lof_MultiCoupon module loading configuration.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Landfocoder ElasticSuite to newer
+ * versions in the future.
+ *
+ * @category  Landfocoder
+ * @package   Lof\MultiCoupon
+ * @author    Landofcoder <landofcoder@gmail.com>
+ * @copyright 2021 Landofcoder
+ * @license   Open Software License ("OSL") v. 3.0
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Lof_MultiCoupon" version="1.0.0">
+        <sequence>
+            <module name="Magento_SalesRule" />
+        </sequence>
+    </module>
+</config>
