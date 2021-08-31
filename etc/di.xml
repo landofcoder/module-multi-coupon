@@ -17,4 +17,6 @@
  -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <preference for="Magento\SalesRule\Model\Quote\Discount" type="Lof\MultiCoupon\Model\Quote\Discount" />
+    <preference for="Lof\MultiCoupon\Api\CouponManagementInterface" type="Lof\MultiCoupon\Model\CouponManagement" />
+    <preference for="Lof\MultiCoupon\Api\GuestCouponManagementInterface" type="Lof\MultiCoupon\Model\GuestCart\GuestCouponManagement" />
 </config>
